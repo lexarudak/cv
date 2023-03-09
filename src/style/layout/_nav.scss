@@ -1,0 +1,42 @@
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -35px;
+
+  &__round {
+      width: 5px;
+      height: 5px;
+      border-radius: 100%;
+      align-self: flex-end;
+      background-color: $dark-color;
+      margin-bottom: 18px;
+      position: relative;
+    }
+
+  &__button {
+    transition: .2s;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+    color: $cv-bg;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $cv-bg-trans-30;
+    }
+
+    &_active {
+      background-color: $cv-bg;
+      color: $dark-color;
+      font-weight: bold;
+
+      &:hover {
+          background-color: $cv-bg;
+        }
+    }
+  }
+}
