@@ -1,0 +1,10 @@
+.page {
+  transition: .3s;
+  opacity: 1;
+  transform: translateY(0px);
+
+  &_hide {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+}

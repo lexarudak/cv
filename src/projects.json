@@ -1,0 +1,15 @@
+{
+  "projects": [
+    {
+      "photo": "url(./assets/project_photos/routine.png",
+      "title": "Routine",
+      "description": "Application for the distribution of your time. Done as part of a team. A detailed description and navigation of the application can be found in the open PR. \n\nParticipation in the project:\n- team leader\n- application idea\n- app design\n- page of the week\n- page of the day\n- registration page\n- modal window for creating a plan",
+      "repo": "",
+      "deploy": "",
+      "task": ""
+    },
+    {
+      "photo": "url(./assets/project_photos/2"
+    }
+  ]
+}

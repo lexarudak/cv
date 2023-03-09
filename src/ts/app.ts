@@ -1,6 +1,14 @@
+import Nav from './nav';
+
 class App {
+  nav: Nav;
+
+  constructor() {
+    this.nav = new Nav();
+  }
+
   start() {
-    console.log('app start');
+    this.nav.draw();
   }
 }
 
