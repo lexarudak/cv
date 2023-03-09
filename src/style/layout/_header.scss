@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  gap: 40px;
+
+  background: linear-gradient(45deg, $light-color, $dark-color);
+
+  &__info {
+    color: $cv-bg;
+  }
+}
+
+.photo {
+  &__border {
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    border: 2px solid rgba(187, 187, 187, 0.458);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-image: url('./assets/my_photo.jpeg');
+    background-size: contain;
+  }
+}

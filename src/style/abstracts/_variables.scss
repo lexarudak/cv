@@ -1,43 +1,19 @@
 
 /// @type Color
-$background-color: #ffffff;
+$bg: #cccccc;
 
-$font-main-light: #999999;
+$cv-bg: #dddddd;
 
-$font-main: #505050;
+$light-color: #835d47;
 
-$font-medium: #8b8b8b;
+$dark-color: #1e2f52;
 
-$font-medium-light: #afafaf;
+$font-medium: #383838;
 
-$font-light: #e3e3e3;
-
-$font-light-trans: #e3e3e343;
-
-$font-pale: #50505080;
-
-$success: #549F7B;
-$warning: #ca9e00;
-$error: #BD3737;
-
-$job-color: #9f5454;
-$thought-color: #BD3737;
-
-$success-trans: #549f7b56;
-
-$popup-background: #9a9a9a50;
-
-$color-background-1: #278f64;
-
-$color-background-2: #d4466c;
-
-$color-background-2-trans: #d4466c48;
-
-$sign-in-active: #ffc800;
-
-
-$shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-$shadow-dark: rgba(0, 0, 0, 0.35);
-
-$none-shadow: rgba(0, 0, 0, 0) 0px 3px 3px 0px;
+$shadow: 
+  rgb(0 0 0 / 9%) 0px 2px 1px,
+  rgb(0 0 0 / 9%) 0px 4px 2px,
+  rgb(0 0 0 / 9%) 0px 8px 4px,
+  rgb(0 0 0 / 9%) 0px 16px 8px,
+  rgb(0 0 0 / 9%) 0px 32px 16px;
 

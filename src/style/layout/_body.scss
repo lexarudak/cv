@@ -1,0 +1,18 @@
+.body {
+  background-color: $bg;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+
+  &__container {
+    overflow: hidden;
+    flex-grow: 1;
+    max-width: 960px;
+    margin: 20px;
+    background-color: $cv-bg;
+    box-shadow: $shadow;
+    border-radius: 20px;
+  }
+
+}
