@@ -24,7 +24,7 @@ class Page {
     return title;
   }
 
-  private makeContent() {
+  protected makeContent() {
     const content = document.createElement('div');
     content.innerText = 'New content';
     return content;

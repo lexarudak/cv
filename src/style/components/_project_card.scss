@@ -1,0 +1,51 @@
+.project-card {
+  display: flex;
+  position: relative;
+  box-shadow: $shadow;
+  border-radius: 20px;
+  overflow: hidden;
+  background-position: top left;
+  background-size: cover;
+
+  &__title {
+    font-size: 26px;
+  }
+
+  &__text {
+    margin: 60px 0;
+    font-weight: 300;
+    width: 70%;
+  }
+
+  &__link-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__link:active,
+  &__link:hover,
+  &__link {
+    text-decoration: none;
+    color: $cv-bg;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+
+  // &__img {
+  //   width: 50%;
+  //   background-size: contain;
+  //   background-position: top center;
+  //   background-repeat: no-repeat;
+  // }
+
+  &__info {
+    width: 100%;
+    padding: 70px 30px 30px;
+    background-color: $dark-color-trans;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    color: $cv-bg;
+  }
+}
