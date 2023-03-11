@@ -13,6 +13,7 @@ class ProjectCard {
     const card = document.createElement('div');
     card.classList.add(ClassList.projectCard);
     card.style.backgroundImage = this.projectInfo.photo;
+    card.style.backgroundPosition = this.projectInfo.bgPosition;
     return card;
   }
 

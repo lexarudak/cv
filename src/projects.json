@@ -2,6 +2,7 @@
   "projects": [
     {
       "photo": "url('./assets/project_photos/routine.webp')",
+      "bgPosition": "right",
       "title": "Routine",
       "description": "Application for the distribution of your time. Done as part of a team. A detailed description and navigation of the application can be found in the open PR. The application is written without the use of libraries and frameworks. \n\nParticipation in the project:\n - Team leader\n - Application idea\n - App design\n - Page of the week\n - Page of the day\n - Registration page\n - plan creating popup",
       "repo": "https://github.com/lexarudak/routine/pull/64",
@@ -10,6 +11,7 @@
     },
     {
       "photo": "url('./assets/project_photos/online_store.webp')",
+      "bgPosition": "left",
       "title": "Online Store",
       "description": "Online store application. Done as part of a team without the use of frameworks and libraries. \n\nParticipation in the project:\n -Team leader\n- Routing\n- Product page\n- Cart Page\n- Purchase checkout popup\n- Responsive design",
       "repo": "https://github.com/lexarudak/online-store/pull/28",
@@ -18,6 +20,7 @@
     },
     {
       "photo": "url('./assets/project_photos/songbird.webp')",
+      "bgPosition": "center",
       "title": "Songbird",
       "description": "The app is a quiz. It is necessary to guess the bird by its singing. For each incorrect answer, the number of points for a correct answer decreases by 1. You can read more about the rules in the task.\n\nApplication features:\n- Work with many custom audio players\n- Generation of answer cards\n- Responsive design\n- Unique design",
       "repo": "https://github.com/lexarudak/songbird/tree/develop",
@@ -26,6 +29,7 @@
     },
     {
       "photo": "url('./assets/project_photos/gem_puzzle.webp')",
+      "bgPosition": "center",
       "title": "Gem puzzle",
       "description": "15 puzzle game. My first application where an empty html file is filled with js.\n\nApplication features:\n- Tiles movement animation\n- Move tiles with click and drag and drop\n- Keeping statistics of winners\n- Only solvable tasks are allowed",
       "repo": "https://github.com/lexarudak/gem-puzzle/tree/develop",
@@ -34,6 +38,7 @@
     },
     {
       "photo": "url('./assets/project_photos/online_zoo.webp')",
+      "bgPosition": "center",
       "title": "Online zoo",
       "description": "Layout of two pages of the site according to the finished layout in Figma. The work was checked using pixel perfect on 4 screen sizes. Responsive design tested on screen sizes between breakpoints.\n\nApplication features:\n- Carousel on homepage\n- Slider with comments on the main page\n- Clicking on a comment opens a popup with it\n- Selecting the donation amount on the 'Donate' page\n- Responsive design",
       "repo": "https://github.com/lexarudak/online-zoo/tree/develop",
@@ -42,6 +47,7 @@
     },
     {
       "photo": "url('./assets/project_photos/eldritch.webp')",
+      "bgPosition": "center",
       "title": "Eldritch Horror Codejam",
       "description": "helper for Eldritch Horror game. The application shuffles the deck according to the selected character and difficulty level.\n\nApplication features:\n- Deck mixing algorithm\n- Animation of flipping cards\n- Unique design",
       "repo": "https://github.com/lexarudak/codejam-eldritch/tree/solve",
@@ -50,6 +56,7 @@
     },
     {
       "photo": "url('./assets/project_photos/momentum.webp')",
+      "bgPosition": "center",
       "title": "Momentum",
       "description": "An analogue of the extension of the same name for Google Chrome. In the application settings, you can change the source of photos. Some of them may be blocked in your region.\n\nApplication features:\n- Custom player\n- Weather widget\n- clock widget\n- Ability to hide widgets\n-ToDo list\n- Widget with quotes\n- Set screensavers from 3 sources",
       "repo": "https://github.com/lexarudak/momentum_for_chrome",
@@ -58,6 +65,7 @@
     },
     {
       "photo": "url('./assets/project_photos/travel.webp')",
+      "bgPosition": "left",
       "title": "Travel",
       "description": "My first application. Layout of the page according to the finished layout in Figma.\n\nApplication features:\n- Carousel\n- Login popup\n- Burger menu\n- Responsive design",
       "repo": "https://github.com/lexarudak/travel_my",
