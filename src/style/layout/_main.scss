@@ -11,6 +11,10 @@
   align-items: center;
   margin: 0px 40px;
 
+  &__inner {
+    padding: 0px 20px;
+  }
+
   &_hide {
     opacity: 0;
     transform: translateY(50px);

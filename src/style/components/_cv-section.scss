@@ -1,0 +1,55 @@
+.cv-section {
+  margin-bottom: 60px;
+
+  &__name {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: $dark-color;
+    font-size: 22px;
+    font-weight: 600;
+  }
+}
+
+.cv-card {
+  margin-bottom: 40px;
+
+  &__title {
+    font-weight: 600;
+  }
+
+  &__post {
+    margin: 20px 0px;
+    font-weight: 600;
+  }
+
+  &__location,
+  &__date {
+    margin-bottom: 20px;
+    color: $font-light;
+  }
+
+  &__work {
+    font-weight: 600;
+  }
+
+  &__code-wrapper {
+    white-space: break-spaces;
+    margin: 0;
+    padding: 0;
+    margin-top: -20px;
+    margin-bottom: -40px;
+  }
+
+  &__code.hljs {
+    background-color: $cv-bg;
+    padding: 10px 20px;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+
+    @media (max-width: 850px) {
+      font-size: 14px;
+      
+    }
+  }
+}

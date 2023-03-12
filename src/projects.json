@@ -13,7 +13,7 @@
       "photo": "url('./assets/project_photos/online_store.webp')",
       "bgPosition": "left",
       "title": "Online Store",
-      "description": "Online store application. Done as part of a team without the use of frameworks and libraries. \n\nParticipation in the project:\n -Team leader\n- Routing\n- Product page\n- Cart Page\n- Purchase checkout popup\n- Responsive design",
+      "description": "Online store application. Done as part of a team without the use of frameworks and libraries. \n\nParticipation in the project:\n - Team leader\n- Routing\n- Product page\n- Cart Page\n- Purchase checkout popup\n- Responsive design",
       "repo": "https://github.com/lexarudak/online-store/pull/28",
       "deploy": "https://lexarudak-online-store.netlify.app/catalog?stock=1-65&price=1-100",
       "task": "https://github.com/rolling-scopes-school/tasks/tree/master/tasks/online-store-team"
@@ -49,7 +49,7 @@
       "photo": "url('./assets/project_photos/eldritch.webp')",
       "bgPosition": "center",
       "title": "Eldritch Horror Codejam",
-      "description": "helper for Eldritch Horror game. The application shuffles the deck according to the selected character and difficulty level.\n\nApplication features:\n- Deck mixing algorithm\n- Animation of flipping cards\n- Unique design",
+      "description": "Helper for Eldritch Horror game. The application shuffles the deck according to the selected character and difficulty level.\n\nApplication features:\n- Deck mixing algorithm\n- Animation of flipping cards\n- Unique design",
       "repo": "https://github.com/lexarudak/codejam-eldritch/tree/solve",
       "deploy": "https://lexarudak.github.io/codejam-eldritch/",
       "task": "https://github.com/lexarudak/codejam-eldritch/tree/main"

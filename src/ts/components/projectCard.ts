@@ -17,13 +17,6 @@ class ProjectCard {
     return card;
   }
 
-  private makeImg() {
-    const img = document.createElement('div');
-    // img.style.backgroundImage = this.projectInfo.photo;
-    img.classList.add(ClassList.projectCardImg);
-    return img;
-  }
-
   private makeInfo() {
     const info = document.createElement('div');
     info.classList.add(ClassList.projectCardInfo);
@@ -66,7 +59,7 @@ class ProjectCard {
 
   public draw() {
     const card = this.makeCard();
-    card.append(this.makeImg(), this.makeInfo());
+    card.append(this.makeInfo());
     return card;
   }
 }

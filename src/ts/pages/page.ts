@@ -24,7 +24,7 @@ class Page {
     return title;
   }
 
-  protected makeContent() {
+  protected makeContent(): HTMLElement {
     const content = document.createElement('div');
     content.innerText = 'New content';
     return content;
@@ -38,7 +38,7 @@ class Page {
     }, 0);
   }
 
-  private refreshContent(oldContent: ChildNode | null, container: HTMLElement) {
+  protected refreshContent(oldContent: ChildNode | null, container: HTMLElement) {
     const newPage = this.makeNewPage();
 
     if (oldContent instanceof HTMLElement) {
