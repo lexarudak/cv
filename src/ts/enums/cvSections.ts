@@ -5,6 +5,7 @@ const enum CvSections {
   languages = 'languages',
   summary = 'summary',
   portfolio = 'portfolio',
+  skills = 'hard skills',
 }
 
 export default CvSections;

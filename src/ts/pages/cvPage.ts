@@ -12,6 +12,7 @@ import codeExample from '../htmlSections/codeExample';
 import languages from '../htmlSections/languages';
 import professionalExperience from '../htmlSections/professionalExperience';
 import code from '../htmlSections/code';
+import skills from '../htmlSections/skills';
 
 class CvPage extends Page {
   constructor() {
@@ -27,6 +28,7 @@ class CvPage extends Page {
       new CvSection(CvSections.education, education).draw(),
       new CvSection(CvSections.portfolio, portfolio).draw(),
       new CvSection(CvSections.codeExample, codeExample).draw(),
+      new CvSection(CvSections.skills, skills).draw(),
       new CvSection(CvSections.professionalExperience, professionalExperience).draw(),
       new CvSection(CvSections.languages, languages).draw()
     );
