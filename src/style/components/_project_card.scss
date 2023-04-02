@@ -16,12 +16,24 @@
     flex-direction: column;
     background: $gradient-main-trans;
     border-radius: 20px;
+
+    @media (max-width: 550px) {
+      padding: 50px 30px 30px;
+    }
   }
 
   &__title {
     font-size: 56px;
     color: $active-color;
     order: 2;
+
+    @media (max-width: 550px) {
+      font-size: 46px;
+    }
+
+    @media (max-width: 390px) {
+      font-size: 36px;
+    }
   }
 
   &__stack {
@@ -30,7 +42,10 @@
     margin-left: 2px;
     color: $cv-bg-trans-70;
     order: 1;
-    // font-weight: bold;
+
+    @media (max-width: 550px) {
+      margin-top: 40px;
+    }
   }
 
   &__text {
@@ -57,6 +72,10 @@
     margin-left: 10px;
     transition: .2s;
     width: 0px;
+
+    @media (max-width: 550px) {
+      margin-top: 15px;
+    }
   }
 
   &__link:hover {

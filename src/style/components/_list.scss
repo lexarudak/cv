@@ -32,12 +32,20 @@
     color: $font-medium;
   }
 
-  &___double-item {
+  &__double-item {
     margin-top: 5px;
   }
 
   a.list__value:hover {
     color: $active-color;
+  }
+
+  &.contact-list &__double-item {
+    @media (max-width: 550px) {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+    }
   }
 
 }

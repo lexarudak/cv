@@ -18,18 +18,24 @@ class Nav {
     this.portfolioBtn = this.createNavButton(PageNames.portfolio);
     this.contactsBtn = this.createNavButton(PageNames.contacts);
 
-    this.cvPage = new CvPage();
     this.portfolioPage = new PortfolioPage();
+    this.cvPage = new CvPage(this.goTo.bind(this));
     this.contactsPage = new ContactsPage();
   }
 
-  private createNavButton(name: PageNames) {
+  private goTo(pageName: PageNames) {
+    this.swipePage(pageName);
+    this.changeActiveButton(pageName);
+  }
+
+  private createNavButton(pageName: PageNames) {
     const btn = document.createElement('div');
     btn.classList.add(ClassList.navButton);
-    btn.id = name;
-    btn.innerText = name;
-    btn.addEventListener('click', () => this.swipePage(name));
-    btn.addEventListener('click', () => this.changeActiveButton(name));
+    btn.id = pageName;
+    btn.innerText = pageName;
+    btn.addEventListener('click', () => {
+      if (!btn.classList.contains(ClassList.navButtonActive)) this.goTo(pageName);
+    });
     return btn;
   }
 

@@ -21,6 +21,7 @@ const enum ClassList {
   projectCardLinkList = 'project-card__link-list',
   projectCardLink = 'project-card__link',
   projectCardStack = 'project-card__stack',
+  contactList = 'contact-list',
 }
 
 export default ClassList;

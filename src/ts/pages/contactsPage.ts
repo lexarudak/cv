@@ -10,7 +10,7 @@ class ContactsPage extends Page {
 
   protected makeContent() {
     const contactList = document.createElement('ul');
-    contactList.classList.add(ClassList.list, ClassList.pageInner);
+    contactList.classList.add(ClassList.list, ClassList.pageInner, ClassList.contactList);
     contactList.setAttribute('itemscope', '');
     contactList.setAttribute('itemtype', 'http://schema.org/Organization');
     contactList.innerHTML = contacts;

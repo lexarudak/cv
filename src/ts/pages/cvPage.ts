@@ -15,23 +15,35 @@ import code from '../htmlSections/code';
 import skills from '../htmlSections/skills';
 
 class CvPage extends Page {
-  constructor() {
+  goTo;
+
+  constructor(goTo: (name: PageNames) => void) {
     super(PageNames.cv);
+    this.goTo = goTo;
   }
 
   protected makeContent() {
+    hljs.registerLanguage('typescript', typescript);
+
     const cv = document.createElement('div');
     cv.classList.add(ClassList.pageInner);
-    hljs.registerLanguage('typescript', typescript);
+
+    const portfolioSection = new CvSection(CvSections.portfolio, portfolio).draw();
+    portfolioSection.addEventListener('click', () => {
+      this.goTo(PageNames.portfolio);
+      window.scrollTo(0, 0);
+    });
+
     cv.append(
       new CvSection(CvSections.summary, summary).draw(),
       new CvSection(CvSections.education, education).draw(),
-      new CvSection(CvSections.portfolio, portfolio).draw(),
+      portfolioSection,
       new CvSection(CvSections.codeExample, codeExample).draw(),
       new CvSection(CvSections.skills, skills).draw(),
       new CvSection(CvSections.professionalExperience, professionalExperience).draw(),
       new CvSection(CvSections.languages, languages).draw()
     );
+
     const codeContainer = cv.querySelector('code');
     if (codeContainer) {
       codeContainer.innerHTML = code;

@@ -9,7 +9,6 @@ class ProjectCard {
   }
 
   private makeCard() {
-    console.log('done');
     const card = document.createElement('div');
     card.classList.add(ClassList.projectCard);
     card.style.backgroundImage = this.projectInfo.photo;

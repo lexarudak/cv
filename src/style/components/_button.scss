@@ -1,4 +1,5 @@
 .button {
+  user-select: none;
   display: inline-flex;
   border: 1px solid $active-color;
   border-radius: 10px;
