@@ -20,6 +20,7 @@ const enum ClassList {
   projectCardText = 'project-card__text',
   projectCardLinkList = 'project-card__link-list',
   projectCardLink = 'project-card__link',
+  projectCardStack = 'project-card__stack',
 }
 
 export default ClassList;

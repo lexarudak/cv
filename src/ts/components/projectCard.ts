@@ -20,7 +20,7 @@ class ProjectCard {
   private makeInfo() {
     const info = document.createElement('div');
     info.classList.add(ClassList.projectCardInfo);
-    info.append(this.makeTitle(), this.makeText(), this.makeLinkList());
+    info.append(this.makeTitle(), this.makeTechStack(), this.makeText(), this.makeLinkList());
     return info;
   }
 
@@ -29,6 +29,13 @@ class ProjectCard {
     title.classList.add(ClassList.projectCardTitle);
     title.innerText = this.projectInfo.title;
     return title;
+  }
+
+  private makeTechStack() {
+    const stack = document.createElement('p');
+    stack.classList.add(ClassList.projectCardStack);
+    stack.innerText = this.projectInfo.techStack;
+    return stack;
   }
 
   private makeText() {

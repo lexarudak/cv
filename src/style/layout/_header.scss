@@ -4,10 +4,25 @@
   padding: 40px 40px 80px;
   gap: 40px;
 
-  background: linear-gradient(45deg, $light-color, $dark-color);
+  background: $gradient-main;
 
   &__info {
     color: $cv-bg;
+  }
+
+  @media (max-width: 650px) {
+      gap: 30px;
+    }
+
+  @media (max-width: 460px) {
+    padding: 30px 30px 70px;
+    gap: 20px;
+  }
+
+  &__text {
+    @media (max-width: 650px) {
+      margin-top: 10px;
+    }
   }
 }
 
@@ -20,6 +35,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 650px) {
+      width: 130px;
+      height: 130px;
+    }
+
+    @media (max-width: 460px) {
+      width: 130px;
+      height: 130px;
+    }
   }
 
   &__img {
@@ -28,5 +53,10 @@
     border-radius: 100%;
     background-image: url('./assets/my_photo.jpeg');
     background-size: contain;
+
+    @media (max-width: 650px) {
+      width: 120px;
+      height: 120px;
+    }
   }
 }

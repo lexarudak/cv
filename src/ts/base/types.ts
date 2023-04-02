@@ -6,4 +6,5 @@ export type ProjectInfo = {
   repo: string;
   deploy: string;
   task: string;
+  techStack: string;
 };

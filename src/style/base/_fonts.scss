@@ -8,6 +8,10 @@ html {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: .8px;
   line-height: 1.5;
+
+  @media (max-width: 460px) {
+    font-size: 14px;
+  }
 }
 
 h1,
@@ -24,4 +28,25 @@ h4 {
   padding: 40px 20px;
   font-size: 32px;
   font-weight: 600;
+
+  @media (max-width: 650px) {
+    font-size: 28px;
+    padding: 30px 20px;
+  }
+
+  @media (max-width: 460px) {
+    font-size: 24px;
+    padding: 20px 0px;
+  }
+}
+
+.title {
+  @media (max-width: 650px) {
+      font-size: 28px;
+      line-height: 1.2;
+    }
+
+  @media (max-width: 460px) {
+    font-size: 24px;
+  }
 }

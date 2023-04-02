@@ -3,22 +3,24 @@
 $bg: #cccccc;
 
 $cv-bg: #ececec;
+$cv-bg-trans-30: hsla(0, 0%, 87%, 0.188);
+$cv-bg-trans-70: #ddddddb3;
 
 $card-bg: #dddddd;
 
-$cv-bg-trans-30: #dddddd30;
-
-$light-color: #1d4a51;
+$light-color: #15353a;
 
 $dark-color: #1e524d;
-
-$dark-color-trans: #1e524d;
+$dark-color-trans: #1e524dea;
 
 $active-color: rgb(229, 149, 0);
 
 $font-medium: #616161;
 
 $font-light: #939393;
+
+$gradient-main: linear-gradient(45deg, $light-color, $dark-color);
+$gradient-main-trans: linear-gradient(45deg, $light-color, $dark-color-trans);
 
 $shadow: 
   rgb(0 0 0 / 9%) 0px 2px 1px,

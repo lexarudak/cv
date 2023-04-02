@@ -16,6 +16,9 @@ const skills = `<div class="cv-card">
                       Webpack / ESLint
                     </li>
                     <li class="list__item">
+                      Jest
+                    </li>
+                    <li class="list__item">
                       Git / GitHub
                     </li>
                     <li class="list__item">

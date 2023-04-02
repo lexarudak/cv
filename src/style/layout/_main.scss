@@ -13,12 +13,21 @@
 
   &__inner {
     padding: 0px 20px;
+
+    @media (max-width: 460px) {
+      padding: 0;
+    }
   }
 
   &_hide {
     opacity: 0;
     transform: translateY(50px);
   }
+
+  @media (max-width: 650px) {
+    margin: 0px 20px;
+  }
+
 }
 
 .project-card-list {
