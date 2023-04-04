@@ -22,6 +22,23 @@ class CvPage extends Page {
     this.goTo = goTo;
   }
 
+  protected makeTitle() {
+    const title = document.createElement('div');
+    title.classList.add(ClassList.cvTitle);
+    const titleText = document.createElement('h2');
+    titleText.classList.add(ClassList.subtitle);
+    titleText.innerText = this.name;
+
+    const titleBtn = document.createElement('a');
+    titleBtn.classList.add(ClassList.button);
+    titleBtn.href = '../../assets/CV Aliaksei Rudak.pdf';
+    titleBtn.innerText = 'Download';
+    titleBtn.setAttribute('download', 'CV Aliaksei Rudak');
+
+    title.append(titleText, titleBtn);
+    return title;
+  }
+
   protected makeContent() {
     hljs.registerLanguage('typescript', typescript);
 

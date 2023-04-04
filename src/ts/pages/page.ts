@@ -17,7 +17,7 @@ class Page {
     return newPage;
   }
 
-  private makeTitle() {
+  protected makeTitle() {
     const title = document.createElement('h2');
     title.classList.add(ClassList.subtitle);
     title.innerText = this.name;

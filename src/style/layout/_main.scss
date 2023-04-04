@@ -37,3 +37,14 @@
   flex-direction: column;
   gap: 30px;
 }
+
+.cv-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  & .subtitle {
+    width: max-content;
+  }
+}
