@@ -31,7 +31,7 @@ class CvPage extends Page {
 
     const titleBtn = document.createElement('a');
     titleBtn.classList.add(ClassList.button);
-    titleBtn.href = '../../assets/CV Aliaksei Rudak.pdf';
+    titleBtn.href = './assets/CV Aliaksei Rudak.pdf';
     titleBtn.innerText = 'Download';
     titleBtn.setAttribute('download', 'CV Aliaksei Rudak');
 
